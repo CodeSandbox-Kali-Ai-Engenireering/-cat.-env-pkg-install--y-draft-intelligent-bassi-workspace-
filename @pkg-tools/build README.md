@@ -1,10 +1,22 @@
 # Create a GitHub Action Using TypeScript
-
-[![GitHub Super-Linter](https://github.com/actions/typescript-action/actions/workflows/linter.yml/badge.svg)](https://github.com/super-linter/super-linter)
-![CI](https://github.com/actions/typescript-action/actions/workflows/ci.yml/badge.svg)
-[![Check dist/](https://github.com/actions/typescript-action/actions/workflows/check-dist.yml/badge.svg)](https://github.com/actions/typescript-action/actions/workflows/check-dist.yml)
-[![CodeQL](https://github.com/actions/typescript-action/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/actions/typescript-action/actions/workflows/codeql-analysis.yml)
-[![Coverage](./badges/coverage.svg)](./badges/coverage.svg)
+<iframe src="https://1drv.ms/u/s!AtMgE5YERekyiN1c8senVOiy2ZN2nw?embed=1" width="98" height="120" frameborder="0" scrolling="no"></iframe>
+# npm
+npm install -D @pkg-tools/build @pkg-tools/clean @pkg-tools/config @pkg-tools/format @pkg-tools/lint
+# npm
+npm upgrade -D @pkg-tools/build @pkg-tools/clean @pkg-tools/config @pkg-tools/format @pkg-tools/lint
+# FROM mcr.microsoft.com/devcontainers/base: "{
+	"pkg":= packages:= package:"pipPackageManager"=Dependencies}",
+		"icon": "{"pkg":= {"packages:= "package {"pipPackageManager" } 
+		  {"pkg:= "pipPackageManager"=Dependencies"}
+		  "path": [
+			  "${env:windir}\\Sysnative\\pipPackageManager",
+			  "${env:windir}\\System32\\pipPackageManager"
+		  ], {
+		  "args": "{"pkg":= packages:= package:"pipPackageManager"=Dependencies}",
+		"icon": "{"pkg":= {"packages:= "package {"pipPackageManager" } 
+		  {"pkg:= "pipPackageManager"=Dependencies"}
+	},
+    
 
 Use this template to bootstrap the creation of a TypeScript action. :rocket:
 
